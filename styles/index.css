@@ -36,8 +36,8 @@ nav a {
   padding: 2rem;
   height: 400px;
   display:flex;
-  flex-direction: column;
-  justify-content: center;  
+  
+  
 }
 
 main {
