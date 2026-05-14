@@ -34,11 +34,9 @@ nav a {
 
 /* Hero section */
 .hero {
-  background-color: #264653;
-  color: white;
-  text-align: center;
+  background-color:white;
   padding: 2rem;
-  height: 700px;
+  height: 400px;
   display:flex;
   flex-direction: column;
   justify-content: center;  
