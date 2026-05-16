@@ -1,0 +1,93 @@
+header {
+    background-color: #eeeed4;
+    color: black;
+    padding: var(--space-small);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+user agent stylesheet
+header {
+    display: block;
+    flex-direction: row;
+    unicode-bidi: isolate;
+}
+body {
+    font-family: "Playfair Display", serif;
+    font-size: large;
+    font-weight: 500;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+:root {
+    --header-color: #05504c;
+    --background-color: hsl(0, 58%, 90%);
+    --text-color: #0f0404;
+    --space-small: 1rem;
+    --space-medium: 2rem;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU.woff2) format('woff2');
+    unicode-range: U +0301, U +0400 -045F, U +0490 -0491, U +04B0 -04B1, U +2116;
+}
+
+footer {
+    background-color: #eeeed4;
+    color: black;
+    padding: var(--space-small);
+    position: relative;
+    display: flex;
+    justify-content: center;
+     font-weight: bold;
+}
+
+nav{
+    display: flex;
+    gap: var(--space-medium);
+    height: 100%;
+    align-items: center;
+}
+
+.temples {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.item {
+  background: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+figcaption {
+    font-size: smaller;
+    color: var(--text-color);
+    margin-top: var(--space-small);
+    text-align: center;
+    font-weight: bold;
+    }  
+.location {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: var(--space-medium);
+    height: 100%;
+    align-items: center;
+    }
