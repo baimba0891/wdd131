@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.view-title {
+  text-align: center;
+  margin: 1rem 0;
+  color: #333;
+}
+
+.divider {
+  width: 80%;
+  border: 2px dashed #999;
+  margin: 2rem 0;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  max-width: 600px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.banner {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+.banner.green { background: green; }
+.banner.green { background: green; }
+
+.image img {
+  width: 100%;
+  display: block;
+}
+
+section {
+  padding: 1rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.84rem;
+}
+
+li {
+  margin: 0.3rem 0;
+}
+
+footer {
+  background: #f9f9f9;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-top: 1px solid #ddd;
+}
+
+/* Wide card layout */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  max-width: 900px;
+  overflow: hidden;
+}
+
+.banner {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.image-container {
+  position: relative;
+  background-color: white;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Overlay boxes */
+.overlay-box {
+  position: absolute;
+  top: 20px;
+  width: 40%;
+  background: rgba(255,255,255,0.9);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.overlay-box.left { left: 20px; }
+.overlay-box.right { right: 20px; width: 30%; }
+
+.overlay-box h2 {
+  color: #cc0000;
+  margin-bottom: 0.5rem;
+}
+
+.overlay-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.overlay-box li {
+  margin: 0.3rem 0;
+}
+
+footer {
+  background: blue;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-top: 1px solid #ddd;
+}

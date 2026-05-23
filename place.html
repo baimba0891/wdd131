@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sierra Leone Info Cards</title>
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <h2 class="view-title">📱 Mobile View</h2>
+
+  <div class="card mobile-card">
+    <header class="banner green">
+      <h1>Sierra Leone</h1>
+    </header>
+
+    <div class="image">
+      <img src="images/sierra_beaches.webp" alt="Sierra Leone landscape">
+    </div>
+
+    <section class="data">
+      <h2>Data</h2>
+      <ul>
+        <li><strong>Area:</strong> 71,740 sq km</li>
+        <li><strong>Population:</strong> 8,800,000</li>
+        <li><strong>Capital:</strong> Freetown</li>
+        <li><strong>Languages:</strong> English (official), Krio, Mende, Temne</li>
+        <li><strong>Currency:</strong> Leone (SLE)</li>
+        <li><strong>Time Zone:</strong> UTC+0</li>
+        <li><strong>Calling Code:</strong> +232</li>
+        <li><strong>Internet TLD:</strong> .sl</li>
+      </ul>
+    </section>
+
+    <section class="weather">
+      <h2>Weather</h2>
+      <ul>
+        <li><strong>Temperature:</strong> <span id="temp1">28</span>°C</li>
+        <li><strong>Conditions:</strong> Partly Cloudy</li>
+        <li><strong>Wind:</strong> <span id="wind1">10</span> km/h</li>
+        <li><strong>Wind Chill:</strong> <span id="windChill1"></span>°C</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>©2026 # Augustine Musa Baimba # Sierra Leone</p>
+      <p>Last Modification: <span id="lastModified1"></span></p>
+    </footer>
+  </div>
+
+  <hr class="divider">
+
+  <h2 class="view-title">💻 Wide Screen View</h2>
+
+  <div class="overlay-card">
+    <header class="banner green">
+      <h1>Sierra Leone Temple</h1>
+    </header>
+
+    <div class="image-container">
+      <img src="images/freetoen_sl_temple.webp" alt="Sierra Leone Temple">
+
+      <section class="data overlay-box left">
+        <h2>Data</h2>
+        <ul>
+          <li><strong>Area:</strong> 71,740 sq km</li>
+          <li><strong>Population:</strong> 8,800,000</li>
+          <li><strong>Capital:</strong> Freetown</li>
+          <li><strong>Languages:</strong> English (official), Krio, Mende, Temne</li>
+          <li><strong>Currency:</strong> Leone (SLE)</li>
+          <li><strong>Time Zone:</strong> UTC+0</li>
+          <li><strong>Calling Code:</strong> +232</li>
+          <li><strong>Internet TLD:</strong> .sl</li>
+        </ul>
+      </section>
+      
+      <section class="weather overlay-box right">
+        <h2>Weather</h2>
+        <ul>
+          <li><strong>Temperature:</strong> <span id="temp">28</span>°C</li>
+          <li><strong>Conditions:</strong> Partly Cloudy</li>
+          <li><strong>Wind:</strong> <span id="wind">10</span> km/h</li>
+          <li><strong>Wind Chill:</strong> <span id="windChill"></span>°C</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>©2026 # Augustine Musa Baimba # Sierra Leone</p>
+      <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+  </div>
+</body>
+</html>
