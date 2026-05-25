@@ -3,55 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Augustine Baimba – WDD 131 Week 01 Project</title>
+  <title>WDD 131 – Dynamic Web Fundamentals – Augustine Musa Baimba</title>
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Augustine Musa Baimba | Personal homepage with about me, Sierra Leone info, and web development resources.">
+  <meta name="author" content="Augustine Musa Baimba">
   <link rel="stylesheet" href="styles/index.css">
+  <script src="scripts/index.js" defer></script>
 </head>
 <body>
   <header>
-    <h1>WDD 131 – Dynamic Web Fundamentals</h1>
-    <nav>
-      <ul>
-        <li><a href="#Linkedin">Linkedin</a></li>
-         <li><a href="#Learn">I-Learn</a></li>
-        <li><a href="#Scripture">Scripture</a></li>
-        <li><a href="#Project">Final Project</a></li>
-      </ul>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+    <nav class>
+      <a href="https://www.linkedin.com">LinkedIn</a>
+      <a href="https://byupw.instructure.com/">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+      <a href="final-project/">Final Project</a>
     </nav>
   </header>
+ <main class="grid-layout">
+  <!-- Full Name Banner -->
+  <div class="name-banner">
+    <h1>Augustine Musa Baimba</h1>
+  </div>
 
-  <main>
-    <section class="hero">
-      <img src="images/amb.jpg" alt="Author's Picture">
+  <!-- Two-column layout -->
+  <div class="left-column">
+    <!-- About Me -->
+    <section class="card about-me">
+      <h2 class="layout">About Me</h2>
+      <img src="images/amb.jpg" alt="Portrait of Augustine Musa Baimba" class="float-right">
+      <p>I am an aspiring Assistant Accountant and Junior Web Developer living in Freetown, Sierra Leone. I enjoy coding, writing, and preserving family history.</p>
     </section>
 
-    <section id="about" class="picture">
-      <h2>About Me</h2>
-      <p> I am so happy to be path of this great Institution(Brigham Young University). I am so much exited and personate about learning new things to enhance my skills and be better fit for the emerging job trends. Acquiring skills in Software development is my top priority, and I am certain to be in the right place to make that dream comes true.</p>
+    <!-- Country Info -->
+    <section class="card country-info">
+      <h2 class="line">Sierra Leone</h2>
+      <img src="images/sierra_leone_flag2.jpg" alt="Official Flag of Sierra Leone" class="float-left">
+      <p>Sierra Leone is located in West Africa, known for its rich culture, beaches, and resilience. It is my home country and central to my family legacy.</p>
     </section>
-    <section id="country" class="card">
-      <h2>Sierra Leone's Flag</h2>
-      <img src="images/sierra_Leone_flag.png" alt="Flag of Sierra Leone">
-      <p>Sierra Leone is a country in West Africa known for its beautiful beaches and rich cultural heritage. Religious tolerance is very high. </p>
-      <p><h2>Key facts about Sierra Leone:</h2>
-       Sierra Leone's current territorial configuration was established in two phases: in 1808, the coastal Sierra Leone Colony was founded as part of the British Empire, to be a place to resettle returning Africans after the abolition of the slave trade; then in 1896, the inland Protectorate was created as a result of the Berlin Conference of 1884–1885. This led to the formal recognition of the territory as the Sierra Leone Colony and Protectorate. 
-      </p>
-    </section>
+  </div>
 
-    <section id="resources" class="card">
-      <h2>Web Dev Resources</h2>
+  <div class="right-column">
+    <!-- Web Dev Resources -->
+    <section class="card resources">
+      <h2 class="layout">Web Dev Resources</h2>
+      <img src="images/web_developer2.PNG" alt="Illustration of a developer coding at a desk">
       <ul>
-        <li><a href="https://dev.to">Dev.to Community</a></li>
-        <li><a href="https://smashingmagazine.com">Smashing Magazine</a></li>
-        <li><a href="https://css-tricks.com">CSS Tricks</a></li>
-        <li><a href="https://w3schools.com">W3 Schools</a></li>
-        <li><a href="https://udemy.com">Udemy</a></li>
+        <li><a href="https://dev.to/">Dev.to Community</a></li>
+        <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+        <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+        <li><a href="https://www.udemy.com/">Udemy</a></li>
       </ul>
     </section>
-  </main>
+  </div>
+</main>
 
-  <footer>
-    <p>© 2026 🌼 Augustine Baimba 🌼 Sierra Leone</p>
-    <p>Created: 08/05/2026</p>
+
+<footer>
+    <p>&copy; <span id="currentyear"></span> Augustine Musa Baimba, Sierra Leone</p>
+    <p id="lastModified"></p>
   </footer>
 </body>
 </html>
